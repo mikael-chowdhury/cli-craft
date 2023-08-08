@@ -49,3 +49,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Change to README.md | added list of features, and how to create app via `npx create-cli-craft-app`
+
+## [1.1.7] - 2023-07-08 August 8 2023
+
+### Changed
+
+- changed licence from ISC to MIT
+- added keywords to package.json

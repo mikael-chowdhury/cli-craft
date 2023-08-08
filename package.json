@@ -1,7 +1,7 @@
 {
   "name": "cli-craft",
-  "version": "1.1.6",
-  "description": "",
+  "version": "1.1.7",
+  "description": "CLI-Craft is a versatile and user-friendly Command-Line Interface (CLI) framework designed to simplify the process of building, customizing, and extending command-line tools.",
   "types": "./dist/cjs/index.d.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
@@ -19,12 +19,30 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "mocha 'test/**/*.test.ts' --timeout 1000000"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "CLI",
+    "command-line",
+    "command-line interface",
+    "CLI framework",
+    "command-line tool",
+    "CLI app",
+    "interactive",
+    "logging",
+    "progress bars",
+    "plugin system",
+    "prompting",
+    "node.js",
+    "npm package",
+    "command parsing",
+    "CLI development",
+    "developer tool",
+    "command-line scripting",
+    "terminal app",
+    "CLI builder",
+    "CLI creator"
+  ],
+  "author": "mikaelchowdhury",
+  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.3.5",
     "@types/command-line-args": "^5.2.0",
