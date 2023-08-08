@@ -1,0 +1,41 @@
+{
+  "name": "cli-craft",
+  "version": "1.1.5",
+  "description": "",
+  "types": "./dist/cjs/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "files": [
+    "src/**/*.d.ts",
+    "./dist",
+    "./src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "mocha 'test/**/*.test.ts' --timeout 1000000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/command-line-args": "^5.2.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.7",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "command-line-args": "^5.2.1"
+  }
+}
