@@ -43,3 +43,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - progress bar automatically updates when value is changed
+
+## [1.1.6] - 2023-07-08 August 8 2023
+
+### Changed
+
+- Change to README.md | added list of features, and how to create app via `npx create-cli-craft-app`

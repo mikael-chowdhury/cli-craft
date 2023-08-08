@@ -29,7 +29,7 @@ CLI-Craft is a versatile and user-friendly Command-Line Interface (CLI) framewor
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to CLI-Craft, please follow our Contribution Guidelines.
+We welcome contributions from the community! We don't have any contribution guidlines quite yet, but if you think you have something to contribute, please reference our [github](https://github.com/mikael-chowdhury/cli-craft)
 
 ## License
 
